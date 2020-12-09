@@ -2,9 +2,9 @@ from behave import given, when, then
 from selenium.webdriver.common.by import By
 
 
-@given('open Amazon page')
-def open_amazon_page(context):
-    context.driver.get("https://www.amazon.com/")
+#@given('open Amazon page')
+#def open_amazon_page(context):
+    #context.driver.get("https://www.amazon.com/")
 
 @when ('Click on Returns & Orders')
 def click_on_returns_and_orders(context):

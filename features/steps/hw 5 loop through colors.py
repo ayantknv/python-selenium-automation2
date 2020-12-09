@@ -8,9 +8,9 @@ color_option = (By.CSS_SELECTOR, "#variation_color_name li")
 selected_color = (By.CSS_SELECTOR, "#variation_color_name span.selection")
 
 
-@given('Open Amazon Jeans {productid} page')
-def open_page(context, productid):
-    context.driver.get(f'https://www.amazon.com/gp/product/{productid}/')
+#@given('Open Amazon Jeans {productid} page')
+#def open_page(context, productid):
+    #context.driver.get(f'https://www.amazon.com/gp/product/{productid}/')
 
 @then('Verify user can select through colors')
 def verify_dress_color(context):
